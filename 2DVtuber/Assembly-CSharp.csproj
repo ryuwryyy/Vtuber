@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{B7C0E0C3-6BB2-99B3-2FE1-DE64676CD767}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_3;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\FaceLive2D.cs" />
+     <Compile Include="Assets\FaceTracking\FaceTracking.cs" />
+     <Compile Include="Assets\hiyori_free\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\ArrayExtensionMethods.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\ComponentExtensionMethods.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\CubismDrawable.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\CubismDynamicDrawableData.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\CubismLogging.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\CubismMoc.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\CubismModel.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\CubismParameter.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\CubismPart.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\CubismTaskableModel.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\CubismTaskQueue.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\FaceLive2D.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\GameObjectExtensionMethods.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\ICubismTask.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\Unmanaged\ByteExtensionMethods.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\Unmanaged\CubismCoreDll.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\Unmanaged\CubismUnmanagedArrayView.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\Unmanaged\CubismUnmanagedCanvasInformation.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\Unmanaged\CubismUnmanagedDrawables.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\Unmanaged\CubismUnmanagedMemory.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\Unmanaged\CubismUnmanagedMoc.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\Unmanaged\CubismUnmanagedModel.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\Unmanaged\CubismUnmanagedParameters.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Core\Unmanaged\CubismUnmanagedParts.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\ComponentExtensionMethods.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\CubismAutoEyeBlinkInput.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\CubismDontMoveOnReimportAttribute.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\CubismEyeBlinkController.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\CubismEyeBlinkParameter.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\CubismMoveOnReimportCopyComponentsOnly.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\CubismParameterBlendMode.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\CubismParameterExtensionMethods.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\CubismParametersInspector.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\CubismPartsInspector.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\HarmonicMotion\CubismHarmonicMotionController.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\HarmonicMotion\CubismHarmonicMotionDirection.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\HarmonicMotion\CubismHarmonicMotionParameter.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Json\CubismBuiltinPickers.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Json\CubismModel3Json.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Json\CubismMotion3Json.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Json\CubismPhysics3Json.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Json\CubismUserData3Json.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\LookAt\CubismLookAxis.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\LookAt\CubismLookController.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\LookAt\CubismLookParameter.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\LookAt\CubismLookTargetBehaviour.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\LookAt\ICubismLookTarget.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\MouthMovement\CubismAudioMouthInput.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\MouthMovement\CubismAudioSamplingQuality.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\MouthMovement\CubismAutoMouthInput.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\MouthMovement\CubismMouthController.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\MouthMovement\CubismMouthParameter.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\ObjectExtensionMethods.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Physics\CubismPhysics.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Physics\CubismPhysicsController.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Physics\CubismPhysicsInput.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Physics\CubismPhysicsMath.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Physics\CubismPhysicsNormalization.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Physics\CubismPhysicsOutput.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Physics\CubismPhysicsParticle.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Physics\CubismPhysicsRig.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Physics\CubismPhysicsSourceComponent.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Physics\CubismPhysicsSubRig.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Raycasting\CubismRaycastable.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Raycasting\CubismRaycastablePrecision.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Raycasting\CubismRaycaster.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Raycasting\CubismRaycastHit.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\Tasking\CubismBuiltinAsyncTaskHandler.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\UserData\CubismUserDataBody.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\UserData\CubismUserDataTag.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Framework\UserData\CubismUserDataTargetType.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\ArrayExtensionMethods.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\CubismBuiltinMaterials.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\CubismBuiltinShaders.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\CubismRenderController.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\CubismRenderer.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\CubismShaderVariables.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\CubismSortingMode.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\CubismSortingModeExtensionMethods.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\ICubismDrawOrderHandler.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\ICubismOpacityHandler.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\Masking\CubismMaskCommandBuffer.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\Masking\CubismMaskController.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\Masking\CubismMaskMaskedJunction.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\Masking\CubismMaskProperties.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\Masking\CubismMaskRenderer.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\Masking\CubismMaskRendererExtensionMethods.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\Masking\CubismMaskTexture.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\Masking\CubismMaskTile.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\Masking\CubismMaskTilePool.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\Masking\CubismMaskTransform.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\Masking\ICubismMaskCommandSource.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\Masking\ICubismMaskTextureCommandSource.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Rendering\Masking\IntExtensionMethods.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Samples\AsyncBenchmark\AsyncToggler.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Samples\AsyncBenchmark\FpsCounter.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Samples\AsyncBenchmark\ModelSpawner.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Samples\LookAt\Billboarder.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Samples\Masking\MaskTexturePreview.cs" />
+     <Compile Include="Assets\Live2D\Cubism\Samples\Raycasting\RaycastHitDisplay.cs" />
+     <Compile Include="Assets\Oculus\LipSync\Scenes\Scripts\EnableSwitch.cs" />
+     <Compile Include="Assets\Oculus\LipSync\Scenes\Scripts\LipSyncDemo_Control.cs" />
+     <Compile Include="Assets\Oculus\LipSync\Scenes\Scripts\LipSyncDemo_SetCurrentTarget.cs" />
+     <Compile Include="Assets\Oculus\LipSync\Scripts\Helpers\OVRLipSyncDebugConsole.cs" />
+     <Compile Include="Assets\Oculus\LipSync\Scripts\Helpers\OVRNamedArrayAttribute.cs" />
+     <Compile Include="Assets\Oculus\LipSync\Scripts\Helpers\OVRTouchpad.cs" />
+     <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSync.cs" />
+     <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncContext.cs" />
+     <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncContextBase.cs" />
+     <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncContextCanned.cs" />
+     <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncContextMorphTarget.cs" />
+     <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncContextTextureFlip.cs" />
+     <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncMicInput.cs" />
+     <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncSequence.cs" />
+     <Compile Include="Assets\SimpleLipSyncer.cs" />
+     <Compile Include="Assets\VTuberKit\Scripts\CustomLipSync.cs" />
+     <None Include="Assets\Live2D\Cubism\Samples\Masking\Description.txt" />
+     <None Include="Assets\Live2D\Cubism\Samples\Animation\Description.txt" />
+     <None Include="Assets\Live2D\Cubism\License.txt" />
+     <None Include="Assets\Live2D\Cubism\Samples\PerspectiveCamera\Description.txt" />
+     <None Include="Assets\Live2D\Cubism\Samples\AsyncBenchmark\Description.txt" />
+     <None Include="Assets\hiyori_free\ReadMe.txt" />
+     <None Include="Assets\Live2D\Cubism\Rendering\Resources\Live2D\Cubism\Shaders\CubismCG.cginc" />
+     <None Include="Assets\Live2D\Cubism\Rendering\Resources\Live2D\Cubism\Shaders\Mask.shader" />
+     <None Include="Assets\Live2D\Cubism\Samples\Editor\Description.txt" />
+     <None Include="Assets\Live2D\Cubism\Samples\Models\License.txt" />
+     <None Include="Assets\Live2D\Cubism\Samples\Raycasting\Description.txt" />
+     <None Include="Assets\Live2D\Cubism\Plugins\RedistributableFiles.txt" />
+     <None Include="Assets\Live2D\Cubism\Changelog.txt" />
+     <None Include="Assets\Live2D\Cubism\Rendering\Resources\Live2D\Cubism\Shaders\Unlit.shader" />
+     <None Include="Assets\Live2D\Cubism\Samples\MultipleModels\Description.txt" />
+     <None Include="Assets\Live2D\Cubism\Samples\LookAt\Description.txt" />
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>/Users/ericfesta/Desktop/UnityLearning/VtuberKit/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
